@@ -1,6 +1,28 @@
 \documentclass{dcbl/challenge}
-
-\setdoctitle{Der Titel meines Dokuments}
+%%% -- {
+%%% --     "metastyle": "0.0.1",
+%%% --     "meta": {
+%%% --          "uuid": "92e5a3bc-4da7-4fde-89f8-5c8fe911c1e1",
+%%% --          "title": "First Steps with VHDL",
+%%% --          "language": "en",
+%%% --          "authors": [
+%%% --              {
+%%% --                  "name": "Stephan Bökelmann",
+%%% --                  "email": "sboekelmann@ep1.rub.de",
+%%% --                  "affiliation": "AG Physik der Hadronen und Kerne"
+%%% --              }
+%%% --          ],
+%%% --          "depends on": {},
+%%% --          "recommends": [],
+%%% --          },
+%%% --          "tags": {
+%%% --              "primary": ["Geschichte", "PDP-7"],
+%%% --              "secondary": [],
+%%% --              "category": ["Geschichte"],
+%%% --         },
+%%% --     }
+%%% -- }
+\setdoctitle{Geschichte der Rechenmaschinen}
 \setdocauthor{Stephan Bökelmann}
 \setdocemail{sboekelmann@ep1.rub.de}
 \setdocinstitute{AG Physik der Hadronen und Kerne}
@@ -8,20 +30,33 @@
 
 \begin{document}
 
-Jedes Challenge-Blatt beginnt mit einer kurzen Einleitung, die einen Kontext für den jeweiligen Zettel setzt. 
+Die Geschichte der Rechenmaschinen, motiviert unser heutiges Verständnis und die heutige Anwendung moderner Computer und der Digitalelektronik im Allgemeinen. 
+Ohne ein Verständnis der Grundlagen dieser Maschinen, wird es auch schwierig, tiefer in die moderne Informatik einzusteigen.
+Daher sollen die folgenden Aufgaben Ihnen die Möglichkeit geben genauer zu erforschen, was die Essenz eben dieser Maschinen ist, welche mehr und mehr Einzug in unser Leben erhalten.
 
 \section*{Aufgaben}
 \begin{aufgabe}
-    Löse die Gleichung $x^2 - 5x + 6 = 0$.
+    Um die Mächtigkeit von Rechenmaschinen zu beschreiben bedienen wir uns hauptsächlich zweier Grundbegriffe:
+    \begin{enumerate}
+        \item FLOPS
+        \item Hauptspeicher (RAM)
+    \end{enumerate}
+    Definieren Sie die beiden Begriffe und beschreiben Sie, warum genau diese Begriffe bedeutend für die Leistung von Rechenmaschinen sind.
 \end{aufgabe}
 
-\begin{aufgabe}[Für Fortgeschrittene]
-    Beweise den Satz des Pythagoras.
+\begin{aufgabe}
+    Was ist Moore's Law und welche Aussage macht es über die Rechenleistung zukünftiger Maschinen?
+\end{aufgabe}
+
+\begin{aufgabe}
+    Recherchieren Sie den \textit{DEC PDP-7} und fassen Sie schriftlich zusammen, welche Gemeinsamkeiten Sie zu modernen Rechenmaschinen sehen.
 \end{aufgabe}
 
 \section*{Anmerkungen}
 \begin{enumerate}
-    \item Link zu einem YouTube-Video: \url{https://www.youtube.com}
+    \item PDP-7 läuft mit UNIX-v0: \url{https://www.youtube.com/watch?v=pvaPaWyiuLA}
+    \item Emulation einer UNIX-v7 Instanz auf einem PDP-11 Emulator: \url{https://www.youtube.com/watch?v=vERIL4JpFPU}
+    \item Erklärung der von-Neumann-Architektur durch Prof. Brailsford der Uni Nottingham: \url{https://www.youtube.com/watch?v=Ml3-kVYLNr8}
 \end{enumerate}
 
 \end{document}
